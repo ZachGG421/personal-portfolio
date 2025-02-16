@@ -1,5 +1,5 @@
 import './index.scss'
-import AnimatedLetters from '../AnimatedLetters'
+import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 import { useEffect, useState } from 'react'
 
 const Contact = () => {
@@ -16,7 +16,7 @@ const Contact = () => {
 
     return (
         <>
-            <div className ='container contact-page'></div>
+            <div className ='container contact-page'>
                 <div className='text-zone'>
                     <h1>
                         <AnimatedLetters 
@@ -26,6 +26,7 @@ const Contact = () => {
                         />
                     </h1>
                 </div>
+            </div>
         </>
     )
 }
