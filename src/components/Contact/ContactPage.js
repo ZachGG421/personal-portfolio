@@ -25,6 +25,35 @@ const Contact = () => {
                         idx={15}
                         />
                     </h1>
+
+                    <p>
+                        I would love the chance for an opportunity where I can utilize my skills
+                        as well as level up my repertoire. Life is all about evolving. 
+                        Let's keep in touch!
+                    </p>
+                    <div className ="contact-form">
+                        <form>
+                            <ul>
+                                <li className="half">
+                                    <input type="text" name="name" placeholder='Name' required />
+                                </li>
+                                <li className='half'>
+                                    <input type='email' name='email' placeholder='Email' required />
+                                </li>
+                                <li>
+                                    <input type="text" name="subjext" placeholder='Subject' required />
+                                </li>
+                                <li>
+                                    <textarea name='message' placeholder='Message' required />
+                                </li>
+                                <li>
+                                    <input type="submit" className="flat-button" value="SEND" />
+                                </li>
+
+                            </ul>
+                        </form>
+
+                    </div>
                 </div>
             </div>
         </>

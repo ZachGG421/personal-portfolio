@@ -37,7 +37,7 @@ const Home = () => {
                 strArray={jobArray}
                 idx={22} />
                 </h1>
-                <h2>Full Stack Developer / MERN Stack Enthusiast / </h2>
+                <h2>Full Stack Developer / MERN Stack Enthusiast / Digital Tinkerer </h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
         </div>
